@@ -1,0 +1,6 @@
+[tools]
+java = "temurin"
+gradle = "latest"
+node = "22"
+python = "3.14"
+

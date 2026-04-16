@@ -1,0 +1,46 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "grep": "allow",
+    "list": "allow",
+    "lsp": "allow",
+    "skill": "allow",
+    "todowrite": "allow",
+    "question": "allow",
+    "read": "allow",
+    "glob": "allow",
+    "task": "allow",
+    "bash": {
+      "*": "ask",
+      "find *": "allow",
+      "xargs *": "allow",
+      "ls *": "allow",
+      "sort *": "allow",
+      "cat *": "allow",
+      "head *": "allow",
+      "tail *": "allow",
+      "echo *": "allow",
+      "./gradlew *": "allow",
+      "grep *": "allow",
+      "git status *": "allow",
+      "git diff *": "allow",
+      "git log *": "allow",
+      "git branch *": "allow",
+      "git checkout *": "allow",
+      "git show *": "allow",
+      "obsidian *": "allow"
+    }
+  },
+  "share": "disabled",
+  "plugin": [
+    "opencode-agent-memory",
+    "superpowers@git+https://github.com/obra/superpowers.git"
+  ],
+  "mcp": {
+    "tml-atlassian": {
+      "type": "remote",
+      "enabled": true,
+      "url": "https://mcp.atlassian.com/v1/mcp"
+    }
+  }
+}

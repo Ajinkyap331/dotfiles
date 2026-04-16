@@ -1,0 +1,5 @@
+font-size = 20
+font-family = "JetBrains Mono"
+maximize = true
+window-save-state = always
+macos-option-as-alt = true
